@@ -1,0 +1,86 @@
+.portfolio {
+    border:6px black ridge;
+    margin:20px;
+    padding:20px;
+    background-color:#ffba54;
+}
+
+.header {
+    color:#de4b31;
+    text-align:center;
+    border:2px green inset;
+    font-family:"Bebas Neue", cursive;
+}
+
+.works {
+    display:flex;
+    justify-content:center;
+}
+
+.works-header {
+    display:flex;
+    justify-content:center;
+}
+
+u {
+    color:#de4b31;
+    font-family:"Bebas Neue", cursive;
+}
+
+footer {
+    font-size: 13px;
+}
+
+img {
+    height:200px;
+    width:200px;
+    padding: 5%;
+    position: relative;
+    opacity: 1;
+}
+
+img:hover {
+    opacity:0.5;
+}
+
+h3 {
+    font-style:italic;
+}
+
+body {
+   background-color:lightblue;
+}
+
+.popcodeQuestDescription {
+    color:blue;
+    position:absolute;
+    top:54%;
+    left:32%;
+    font-size:19px;
+    display:none;
+    font-family: "Press Start 2P", cursive;
+}
+
+.vehicleQuizDescription {
+    color:purple;
+    position:absolute;
+    top:55%;
+    left:45.5%;
+    font-size:20px;
+    display:none;
+    font-family: "Rowdies", cursive;
+}
+
+.birdPicturesDescription {
+    color:white;
+    position:absolute;
+    top:55%;
+    left:59.5%;
+    font-size:20px;
+    display:none;
+    font-family: "Playfair Display", serif;
+}
+
+div {
+    margin:2%;
+}
