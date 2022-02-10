@@ -1,7 +1,5 @@
 <!DOCTYPE html> <html><head>
-<!--    Add Google Fonts!      -->
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Playfair+Display:wght@600&amp;family=Press+Start+2P&amp;family=Rowdies:wght@300&amp;display=swap" rel="stylesheet"> 
-<!--    Replace images found on the web with downloaded images!      -->
         <title>My Portfolio</title>
     <script>function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -4098,7 +4096,6 @@ body {
     top:54%;
     left:31%;
     font-size:19px;
-    display:none;
     font-family: "Press Start 2P", cursive;
 }
 
@@ -4108,7 +4105,6 @@ body {
     top:55%;
     left:45%;
     font-size:20px;
-    display:none;
     font-family: "Rowdies", cursive;
 }
 
@@ -4118,7 +4114,6 @@ body {
     top:55%;
     left:60.5%;
     font-size:20px;
-    display:none;
     font-family: "Playfair Display", serif;
 }
 
@@ -4138,26 +4133,26 @@ div {
             <div class="works">
                 <div>
                     <h3>Popcode Quest</h3>
-                	<a href="https://elijahbportfolio.github.io/Unit-6-Project-Elijah-Brown/" target="blank"><img src="car_keys.jpg" class="popcodeQuestImage"></a>
                     <p class="popcodeQuestDescription">
                         Go on a <br>classic <br>text <br> adventure <br> to find <br>your <br>stolen <br> car keys!
                     </p>
+                    <a href="https://elijahbportfolio.github.io/Unit-6-Project-Elijah-Brown/" target="blank"><img src="car_keys.jpg" class="popcodeQuestImage"></a>
                 </div>
                 
                 <div>
                     <h3>Vehicle Quiz</h3>
-                	<a href="https://elijahbportfolio.github.io/What-Vehicle-Are-You-Character-Quiz-Project-Elijah-Brown/" target="blank"><img src="2019_honda_civic_sedan.jpg" class="vehicleQuizImage"></a>
                     <p class="vehicleQuizDescription">
                         Take a short survey to <br>figure out which <br>vehicle you are.
                     </p>
+                    <a href="https://elijahbportfolio.github.io/What-Vehicle-Are-You-Character-Quiz-Project-Elijah-Brown/" target="blank"><img src="2019_honda_civic_sedan.jpg" class="vehicleQuizImage"></a>
                 </div>
                 
                 <div>
                     <h3>Bird Pictures</h3>
-                	<a href="https://elijahbportfolio.github.io/Hello-Elijah-Brown-Unit-Project/" target="blank"><img src="robin.jpg" class="birdPicturesImage"></a>
                     <p class="birdPicturesDescription">
                         Look at pictures of <br>cool looking birds <br>and insert your own <br>posted on the <br>internet!
                     </p>
+                    <a href="https://elijahbportfolio.github.io/Hello-Elijah-Brown-Unit-Project/" target="blank"><img src="robin.jpg" class="birdPicturesImage"></a>
                 </div>
             </div>
                <footer>
@@ -4172,27 +4167,21 @@ div {
 <script>
 /*__POPCODESTART__*/
 $(".popcodeQuestImage").hover(function () {
-  $(".popcodeQuestDescription").show();
   $(".popcodeQuestImage").css("opacity", "0.5");
 });
 $(".popcodeQuestImage").mouseleave(function () {
-  $(".popcodeQuestDescription").hide();
   $(".popcodeQuestImage").css("opacity", "1");
 });
 $(".vehicleQuizImage").hover(function () {
-  $(".vehicleQuizDescription").show();
   $(".vehicleQuizImage").css("opacity", "0.5");
 });
 $(".vehicleQuizImage").mouseleave(function () {
-  $(".vehicleQuizDescription").hide();
   $(".vehicleQuizImage").css("opacity", "1");
 });
 $(".birdPicturesImage").hover(function () {
-  $(".birdPicturesDescription").show();
   $(".birdPicturesImage").css("opacity", "0.5");
 });
 $(".birdPicturesImage").mouseleave(function () {
-  $(".birdPicturesDescription").hide();
   $(".birdPicturesImage").css("opacity", "1");
 });
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJob3ZlciIsInNob3ciLCJjc3MiLCJtb3VzZWxlYXZlIiwiaGlkZSJdLCJtYXBwaW5ncyI6IkFBQUFBLENBQUMsQ0FBQyxvQkFBRCxDQUFELENBQXdCQyxLQUF4QixDQUE4QixZQUFXO0FBQ3JDRCxFQUFBQSxDQUFDLENBQUMsMEJBQUQsQ0FBRCxDQUE4QkUsSUFBOUI7QUFDQUYsRUFBQUEsQ0FBQyxDQUFDLG9CQUFELENBQUQsQ0FBd0JHLEdBQXhCLENBQTRCLFNBQTVCLEVBQXNDLEtBQXRDO0FBQ0YsQ0FIRjtBQUtBSCxDQUFDLENBQUMsb0JBQUQsQ0FBRCxDQUF3QkksVUFBeEIsQ0FBbUMsWUFBVztBQUMxQ0osRUFBQUEsQ0FBQyxDQUFDLDBCQUFELENBQUQsQ0FBOEJLLElBQTlCO0FBQ0FMLEVBQUFBLENBQUMsQ0FBQyxvQkFBRCxDQUFELENBQXdCRyxHQUF4QixDQUE0QixTQUE1QixFQUFzQyxHQUF0QztBQUNILENBSEQ7QUFLQUgsQ0FBQyxDQUFDLG1CQUFELENBQUQsQ0FBdUJDLEtBQXZCLENBQTZCLFlBQVc7QUFDcENELEVBQUFBLENBQUMsQ0FBQyx5QkFBRCxDQUFELENBQTZCRSxJQUE3QjtBQUNBRixFQUFBQSxDQUFDLENBQUMsbUJBQUQsQ0FBRCxDQUF1QkcsR0FBdkIsQ0FBMkIsU0FBM0IsRUFBcUMsS0FBckM7QUFDSCxDQUhEO0FBS0FILENBQUMsQ0FBQyxtQkFBRCxDQUFELENBQXVCSSxVQUF2QixDQUFrQyxZQUFXO0FBQ3pDSixFQUFBQSxDQUFDLENBQUMseUJBQUQsQ0FBRCxDQUE2QkssSUFBN0I7QUFDQUwsRUFBQUEsQ0FBQyxDQUFDLG1CQUFELENBQUQsQ0FBdUJHLEdBQXZCLENBQTJCLFNBQTNCLEVBQXFDLEdBQXJDO0FBQ0gsQ0FIRDtBQUtBSCxDQUFDLENBQUMsb0JBQUQsQ0FBRCxDQUF3QkMsS0FBeEIsQ0FBOEIsWUFBVztBQUNyQ0QsRUFBQUEsQ0FBQyxDQUFDLDBCQUFELENBQUQsQ0FBOEJFLElBQTlCO0FBQ0FGLEVBQUFBLENBQUMsQ0FBQyxvQkFBRCxDQUFELENBQXdCRyxHQUF4QixDQUE0QixTQUE1QixFQUFzQyxLQUF0QztBQUNILENBSEQ7QUFLQUgsQ0FBQyxDQUFDLG9CQUFELENBQUQsQ0FBd0JJLFVBQXhCLENBQW1DLFlBQVc7QUFDMUNKLEVBQUFBLENBQUMsQ0FBQywwQkFBRCxDQUFELENBQThCSyxJQUE5QjtBQUNBTCxFQUFBQSxDQUFDLENBQUMsb0JBQUQsQ0FBRCxDQUF3QkcsR0FBeEIsQ0FBNEIsU0FBNUIsRUFBc0MsR0FBdEM7QUFDSCxDQUhEIiwic291cmNlc0NvbnRlbnQiOlsiJChcIi5wb3Bjb2RlUXVlc3RJbWFnZVwiKS5ob3ZlcihmdW5jdGlvbigpIHtcbiAgICAkKFwiLnBvcGNvZGVRdWVzdERlc2NyaXB0aW9uXCIpLnNob3coKTtcbiAgICAkKFwiLnBvcGNvZGVRdWVzdEltYWdlXCIpLmNzcyhcIm9wYWNpdHlcIixcIjAuNVwiKTtcblx0fSk7XG5cbiQoXCIucG9wY29kZVF1ZXN0SW1hZ2VcIikubW91c2VsZWF2ZShmdW5jdGlvbigpIHtcbiAgICAkKFwiLnBvcGNvZGVRdWVzdERlc2NyaXB0aW9uXCIpLmhpZGUoKTtcbiAgICAkKFwiLnBvcGNvZGVRdWVzdEltYWdlXCIpLmNzcyhcIm9wYWNpdHlcIixcIjFcIik7XG59KTtcblxuJChcIi52ZWhpY2xlUXVpekltYWdlXCIpLmhvdmVyKGZ1bmN0aW9uKCkge1xuICAgICQoXCIudmVoaWNsZVF1aXpEZXNjcmlwdGlvblwiKS5zaG93KCk7XG4gICAgJChcIi52ZWhpY2xlUXVpekltYWdlXCIpLmNzcyhcIm9wYWNpdHlcIixcIjAuNVwiKTtcbn0pO1xuXG4kKFwiLnZlaGljbGVRdWl6SW1hZ2VcIikubW91c2VsZWF2ZShmdW5jdGlvbigpIHtcbiAgICAkKFwiLnZlaGljbGVRdWl6RGVzY3JpcHRpb25cIikuaGlkZSgpO1xuICAgICQoXCIudmVoaWNsZVF1aXpJbWFnZVwiKS5jc3MoXCJvcGFjaXR5XCIsXCIxXCIpO1xufSk7XG5cbiQoXCIuYmlyZFBpY3R1cmVzSW1hZ2VcIikuaG92ZXIoZnVuY3Rpb24oKSB7XG4gICAgJChcIi5iaXJkUGljdHVyZXNEZXNjcmlwdGlvblwiKS5zaG93KCk7XG4gICAgJChcIi5iaXJkUGljdHVyZXNJbWFnZVwiKS5jc3MoXCJvcGFjaXR5XCIsXCIwLjVcIik7XG59KTtcblxuJChcIi5iaXJkUGljdHVyZXNJbWFnZVwiKS5tb3VzZWxlYXZlKGZ1bmN0aW9uKCkge1xuICAgICQoXCIuYmlyZFBpY3R1cmVzRGVzY3JpcHRpb25cIikuaGlkZSgpO1xuICAgICQoXCIuYmlyZFBpY3R1cmVzSW1hZ2VcIikuY3NzKFwib3BhY2l0eVwiLFwiMVwiKTtcbn0pOyJdfQ==</script></body></html>
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJob3ZlciIsImNzcyIsIm1vdXNlbGVhdmUiXSwibWFwcGluZ3MiOiJBQUFBQSxDQUFDLENBQUMsb0JBQUQsQ0FBRCxDQUF3QkMsS0FBeEIsQ0FBOEIsWUFBVztBQUNyQ0QsRUFBQUEsQ0FBQyxDQUFDLG9CQUFELENBQUQsQ0FBd0JFLEdBQXhCLENBQTRCLFNBQTVCLEVBQXNDLEtBQXRDO0FBQ0YsQ0FGRjtBQUlBRixDQUFDLENBQUMsb0JBQUQsQ0FBRCxDQUF3QkcsVUFBeEIsQ0FBbUMsWUFBVztBQUMxQ0gsRUFBQUEsQ0FBQyxDQUFDLG9CQUFELENBQUQsQ0FBd0JFLEdBQXhCLENBQTRCLFNBQTVCLEVBQXNDLEdBQXRDO0FBQ0gsQ0FGRDtBQUlBRixDQUFDLENBQUMsbUJBQUQsQ0FBRCxDQUF1QkMsS0FBdkIsQ0FBNkIsWUFBVztBQUNwQ0QsRUFBQUEsQ0FBQyxDQUFDLG1CQUFELENBQUQsQ0FBdUJFLEdBQXZCLENBQTJCLFNBQTNCLEVBQXFDLEtBQXJDO0FBQ0gsQ0FGRDtBQUlBRixDQUFDLENBQUMsbUJBQUQsQ0FBRCxDQUF1QkcsVUFBdkIsQ0FBa0MsWUFBVztBQUN6Q0gsRUFBQUEsQ0FBQyxDQUFDLG1CQUFELENBQUQsQ0FBdUJFLEdBQXZCLENBQTJCLFNBQTNCLEVBQXFDLEdBQXJDO0FBQ0gsQ0FGRDtBQUlBRixDQUFDLENBQUMsb0JBQUQsQ0FBRCxDQUF3QkMsS0FBeEIsQ0FBOEIsWUFBVztBQUNyQ0QsRUFBQUEsQ0FBQyxDQUFDLG9CQUFELENBQUQsQ0FBd0JFLEdBQXhCLENBQTRCLFNBQTVCLEVBQXNDLEtBQXRDO0FBQ0gsQ0FGRDtBQUlBRixDQUFDLENBQUMsb0JBQUQsQ0FBRCxDQUF3QkcsVUFBeEIsQ0FBbUMsWUFBVztBQUMxQ0gsRUFBQUEsQ0FBQyxDQUFDLG9CQUFELENBQUQsQ0FBd0JFLEdBQXhCLENBQTRCLFNBQTVCLEVBQXNDLEdBQXRDO0FBQ0gsQ0FGRCIsInNvdXJjZXNDb250ZW50IjpbIiQoXCIucG9wY29kZVF1ZXN0SW1hZ2VcIikuaG92ZXIoZnVuY3Rpb24oKSB7XG4gICAgJChcIi5wb3Bjb2RlUXVlc3RJbWFnZVwiKS5jc3MoXCJvcGFjaXR5XCIsXCIwLjVcIik7XG5cdH0pO1xuXG4kKFwiLnBvcGNvZGVRdWVzdEltYWdlXCIpLm1vdXNlbGVhdmUoZnVuY3Rpb24oKSB7XG4gICAgJChcIi5wb3Bjb2RlUXVlc3RJbWFnZVwiKS5jc3MoXCJvcGFjaXR5XCIsXCIxXCIpO1xufSk7XG5cbiQoXCIudmVoaWNsZVF1aXpJbWFnZVwiKS5ob3ZlcihmdW5jdGlvbigpIHtcbiAgICAkKFwiLnZlaGljbGVRdWl6SW1hZ2VcIikuY3NzKFwib3BhY2l0eVwiLFwiMC41XCIpO1xufSk7XG5cbiQoXCIudmVoaWNsZVF1aXpJbWFnZVwiKS5tb3VzZWxlYXZlKGZ1bmN0aW9uKCkge1xuICAgICQoXCIudmVoaWNsZVF1aXpJbWFnZVwiKS5jc3MoXCJvcGFjaXR5XCIsXCIxXCIpO1xufSk7XG5cbiQoXCIuYmlyZFBpY3R1cmVzSW1hZ2VcIikuaG92ZXIoZnVuY3Rpb24oKSB7XG4gICAgJChcIi5iaXJkUGljdHVyZXNJbWFnZVwiKS5jc3MoXCJvcGFjaXR5XCIsXCIwLjVcIik7XG59KTtcblxuJChcIi5iaXJkUGljdHVyZXNJbWFnZVwiKS5tb3VzZWxlYXZlKGZ1bmN0aW9uKCkge1xuICAgICQoXCIuYmlyZFBpY3R1cmVzSW1hZ2VcIikuY3NzKFwib3BhY2l0eVwiLFwiMVwiKTtcbn0pOyJdfQ==</script></body></html>
